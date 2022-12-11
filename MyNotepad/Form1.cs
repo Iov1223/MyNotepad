@@ -18,7 +18,7 @@ namespace MyNotepad
         private ComboBox refTextOutline = new ComboBox();
         private ComboBox refTextSize = new ComboBox();
         private ComboBox refTextColor = new ComboBox();
-       
+
 
         private Control[] CreateElements()
         {

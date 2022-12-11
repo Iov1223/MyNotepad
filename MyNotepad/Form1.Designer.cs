@@ -42,11 +42,6 @@
             this.CutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.форматToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.FontToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.comboBoxColor = new System.Windows.Forms.ComboBox();
-            this.comboStyle = new System.Windows.Forms.ComboBox();
-            this.comboOutline = new System.Windows.Forms.ComboBox();
-            this.comboBoxSize = new System.Windows.Forms.ComboBox();
-            this.buttonTime = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -153,71 +148,15 @@
             // FontToolStripMenuItem
             // 
             this.FontToolStripMenuItem.Name = "FontToolStripMenuItem";
-            this.FontToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.FontToolStripMenuItem.Size = new System.Drawing.Size(140, 26);
             this.FontToolStripMenuItem.Text = "Шрифт";
             this.FontToolStripMenuItem.Click += new System.EventHandler(this.FontToolStripMenuItem_Click);
-            // 
-            // comboBoxColor
-            // 
-            this.comboBoxColor.FormattingEnabled = true;
-            this.comboBoxColor.Items.AddRange(new object[] {
-            "Красный ",
-            "Зелёный",
-            "Синий",
-            "Чёрный"});
-            this.comboBoxColor.Location = new System.Drawing.Point(8, 38);
-            this.comboBoxColor.Name = "comboBoxColor";
-            this.comboBoxColor.Size = new System.Drawing.Size(121, 24);
-            this.comboBoxColor.TabIndex = 2;
-            this.comboBoxColor.SelectedIndexChanged += new System.EventHandler(this.comboBoxColor_SelectedIndexChanged);
-            // 
-            // comboStyle
-            // 
-            this.comboStyle.FormattingEnabled = true;
-            this.comboStyle.Location = new System.Drawing.Point(58, 123);
-            this.comboStyle.Name = "comboStyle";
-            this.comboStyle.Size = new System.Drawing.Size(121, 24);
-            this.comboStyle.TabIndex = 3;
-            this.comboStyle.SelectedIndexChanged += new System.EventHandler(this.comboStyle_SelectedIndexChanged_1);
-            // 
-            // comboOutline
-            // 
-            this.comboOutline.FormattingEnabled = true;
-            this.comboOutline.Location = new System.Drawing.Point(214, 241);
-            this.comboOutline.Name = "comboOutline";
-            this.comboOutline.Size = new System.Drawing.Size(121, 24);
-            this.comboOutline.TabIndex = 4;
-            this.comboOutline.SelectedIndexChanged += new System.EventHandler(this.comboOutline_SelectedIndexChanged_1);
-            // 
-            // comboBoxSize
-            // 
-            this.comboBoxSize.FormattingEnabled = true;
-            this.comboBoxSize.Location = new System.Drawing.Point(532, 307);
-            this.comboBoxSize.Name = "comboBoxSize";
-            this.comboBoxSize.Size = new System.Drawing.Size(121, 24);
-            this.comboBoxSize.TabIndex = 5;
-            this.comboBoxSize.SelectedIndexChanged += new System.EventHandler(this.comboBoxSize_SelectedIndexChanged_1);
-            // 
-            // buttonTime
-            // 
-            this.buttonTime.Location = new System.Drawing.Point(532, 241);
-            this.buttonTime.Name = "buttonTime";
-            this.buttonTime.Size = new System.Drawing.Size(75, 23);
-            this.buttonTime.TabIndex = 6;
-            this.buttonTime.Text = "button1";
-            this.buttonTime.UseVisualStyleBackColor = true;
-            this.buttonTime.MouseClick += new System.Windows.Forms.MouseEventHandler(this.buttonTime_MouseClick_1);
             // 
             // MyForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.buttonTime);
-            this.Controls.Add(this.comboBoxSize);
-            this.Controls.Add(this.comboOutline);
-            this.Controls.Add(this.comboStyle);
-            this.Controls.Add(this.comboBoxColor);
             this.Controls.Add(this.richTextBoxContent);
             this.Controls.Add(this.menuStrip1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -245,11 +184,6 @@
         private System.Windows.Forms.ToolStripMenuItem форматToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem FontToolStripMenuItem;
         public System.Windows.Forms.RichTextBox richTextBoxContent;
-        private System.Windows.Forms.ComboBox comboBoxColor;
-        private System.Windows.Forms.ComboBox comboStyle;
-        private System.Windows.Forms.ComboBox comboOutline;
-        private System.Windows.Forms.ComboBox comboBoxSize;
-        private System.Windows.Forms.Button buttonTime;
     }
 }
 
