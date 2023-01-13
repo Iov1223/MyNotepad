@@ -143,7 +143,7 @@ namespace MyNotepad
             }
             catch 
             {
-                MessageBox.Show("Не удалось создать файл");
+                MessageBox.Show("Не удалось создать файл!");
             }
 
         }
